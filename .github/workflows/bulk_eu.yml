@@ -48,19 +48,18 @@ jobs:
           # Format: "VERSION|URL"
           # -------------------------------------------------------
           declare -a OTAS=(
-            "14.1.0.320|https://gauss-opexcostmanual-in.allawnofs.com/remove-2e90cd6819bd40d91d81ce48962c5e47/component-ota/24/07/19/7488951e750b43f8b1dbee4cbb550af7.zip"
-            "14.1.0.330|https://gauss-opexcostmanual-in.allawnofs.com/remove-ab7c907cfcdd7fcd078a6933ef2c1b40/component-ota/24/07/29/b972f88cdd714b069dfa5285e04647ad.zip"
-            "14.1.0.401|https://gauss-opexcostmanual-in.allawnofs.com/remove-67972eeb11159169456eb5b9ed478538/component-ota/24/08/20/652ae361560a48d5be24b554509cf274.zip"
-            "14.1.0.603|https://gauss-opexcostmanual-in.allawnofs.com/remove-3f924c857bfee7fb8925d32730757d10/component-ota/24/10/11/0ce353d810fe4e369b1e77afedbf6fe5.zip"
-            "15.0.0.300|https://gauss-opexcostmanual-in.allawnofs.com/remove-223d11510b04fc52b4c79017a89d6d8a/component-ota/24/11/18/bad3c20461fd4ccf83dba59422060984.zip"
-            "15.0.0.401|https://gauss-opexcostmanual-in.allawnofs.com/remove-7217edec683b4ac3b3d0962ef7367b1e/component-ota/24/12/26/4eb9804f701c48b1a05149587be45f25.zip"
-            "15.0.0.500|https://gauss-opexcostmanual-sg.allawnofs.com/remove-0c0ccfec7a13c6bc2d1df919aabc5205/component-ota/25/01/21/5165855be586441bbba74f7809afa582.zip"
-            "15.0.0.601|https://gauss-opexcostmanual-sg.allawnofs.com/remove-e0902eb95e47becaaeecc9a904d02414/component-ota/25/02/26/6c257cbc1e1f48f2ac1e1769f135d86a.zip"
-            "15.0.0.701|https://gauss-opexcostmanual-sg.allawnofs.com/remove-0171d8a45c7de834982ecc7fa7997d48/component-ota/25/03/19/8cd7298053e4409c91709a915237306a.zip"
-            "15.0.0.702|https://gauss-opexcostmanual-in.allawnofs.com/remove-459f080b011d3f7d18d516112314f62a/component-ota/25/04/07/69fa4e0f8bda42a49c205eedec679eee.zip"
-            "15.0.0.1201|https://gauss-opexcostmanual-in.allawnofs.com/remove-0dc7f132fce20f4add8a08a31ea923b3/component-ota/25/08/11/c624de49bb154f6f872fea8432975fe5.zip"
-            "15.0.0.1204|https://gauss-opexcostmanual-in.allawnofs.com/remove-13b29d8c384102e41b70ddccab49e8d1/component-ota/25/09/02/fa356c1b20994acfb3e9d76360aa8d97.zip"
-            "15.0.0.1301|https://gauss-opexcostmanual-in.allawnofs.com/remove-a033210237d666164b6cab188c83b83b/component-ota/25/10/14/8a1ff2df86fa4279bb422f8cabf4debe.zip"
+            "14.1.0.320|https://gauss-opexcostmanual-eu.allawnofs.com/remove-833308a2c2e04a4b8a4316745b04a7ff/component-ota/24/07/19/6d9a8b2fcaab46cf967cc9be71d067c4.zip"
+            "14.1.0.401|https://gauss-opexcostmanual-eu.allawnofs.com/remove-85330d30a8447f7a257a846590eecd4e/component-ota/24/08/20/dd2f865d351d4c49b231b20adf5f48ce.zip"
+            "14.1.0.603|https://gauss-opexcostmanual-eu.allawnofs.com/remove-5204a88a33486514ee1f58580b116cde/component-ota/24/10/11/a2ef5d9ca66e40f1a284f91418f4c040.zip"
+            "14.1.0.605|https://gauss-opexcostmanual-eu.allawnofs.com/remove-8dbf4fe2dba8815dbbcb3d9bcee33d0f/component-ota/24/11/13/7ece91f468db494bb683b87901ce2597.zip"
+            "15.0.0.401|https://gauss-opexcostmanual-eu.allawnofs.com/remove-26db91c1831737b713824bf234bda276/component-ota/24/12/26/831468d1bb344f26b6d8f349819b3978.zip"
+            "15.0.0.500|https://gauss-opexcostmanual-sg.allawnofs.com/remove-8effbe7f2f3f02da978da0bab32c1ff3/component-ota/25/01/21/0e094e9b4a2547e58f358f5badc463ef.zip"
+            "15.0.0.601|https://gauss-opexcostmanual-sg.allawnofs.com/remove-9dce8095efca564e91f027be8c3da473/component-ota/25/02/26/98577420dedf4b1ba27204de888a8cb2.zip"
+            "15.0.0.702|https://gauss-opexcostmanual-sg.allawnofs.com/remove-1a16bcb9d8c4d44b7557e1066b1f2100/component-ota/25/04/07/a08b6c26f6c84a2daae6dac9e7b17ae3.zip"
+            "15.0.0.1002|https://gauss-opexcostmanual-eu.allawnofs.com/remove-a1eff8e4fdfbd65cbfe14375c2397540/component-ota/25/06/24/a1eb00ab8aa54aed9539d5d367f3097e.zip"
+            "15.0.0.1201|https://gauss-opexcostmanual-eu.allawnofs.com/remove-c03f2d5f18fe0c881a5e92423f741484/component-ota/25/08/11/3f44bd86573545cd821d32b7a5d5e121.zip"
+            "15.0.0.1203|https://gauss-opexcostmanual-eu.allawnofs.com/remove-fb166b6ae7ee5a4c9b02f78dd46c8f05/component-ota/25/08/26/41d2f7b27e2340b2ab0d3b2ae54ec860.zip"
+            "15.0.0.1301|https://gauss-opexcostmanual-eu.allawnofs.com/remove-4e6bf4ac4359329010d016ecb48f351d/component-ota/25/10/14/2613911822dd4a6cb6e4c78f6cb31938.zip"
           )
 
           # -------------------------------------------------------
@@ -76,8 +75,8 @@ jobs:
             VERSION="${item%%|*}"
             URL="${item##*|}"
             
-            TAG="CPH2661IN-${VERSION}"
-            BASE_NAME="CPH2661IN-${VERSION}"
+            TAG="CPH2663EEA-${VERSION}"
+            BASE_NAME="CPH2663EEA-${VERSION}"
             
             echo "---------------------------------------------------"
             echo "🚀 Processing [$count/$total]: $TAG"
@@ -114,7 +113,7 @@ jobs:
             echo "📦 Creating GitHub Release..."
             
             # --- NEW RELEASE NOTES FORMAT ---
-            NOTES="**Region:** INDIA ( CPH 2661IN ) 🇮🇳"$'\n'"**Version:** ${VERSION} 📱"$'\n'"**Type:** Official OTA 📦"$'\n\n'"**BOOT & INIT_BOOT of this ${VERSION} can be found here :** https://t.me/boot_imgs_nord4/2"
+            NOTES="**Region:** EUROPE ( CPH2663EEA ) 🇮🇳"$'\n'"**Version:** ${VERSION} 📱"$'\n'"**Type:** Official OTA 📦"$'\n\n'"**BOOT & INIT_BOOT of this ${VERSION} can be found here :** https://t.me/boot_imgs_nord4/2"
             
             gh release create "$TAG" -t "OnePlus OTA - ${VERSION}" -n "$NOTES"
 
