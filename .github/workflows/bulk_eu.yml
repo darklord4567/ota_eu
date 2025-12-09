@@ -48,18 +48,7 @@ jobs:
           # Format: "VERSION|URL"
           # -------------------------------------------------------
           declare -a OTAS=(
-            "14.1.0.320|https://gauss-opexcostmanual-eu.allawnofs.com/remove-833308a2c2e04a4b8a4316745b04a7ff/component-ota/24/07/19/6d9a8b2fcaab46cf967cc9be71d067c4.zip"
-            "14.1.0.401|https://gauss-opexcostmanual-eu.allawnofs.com/remove-85330d30a8447f7a257a846590eecd4e/component-ota/24/08/20/dd2f865d351d4c49b231b20adf5f48ce.zip"
-            "14.1.0.603|https://gauss-opexcostmanual-eu.allawnofs.com/remove-5204a88a33486514ee1f58580b116cde/component-ota/24/10/11/a2ef5d9ca66e40f1a284f91418f4c040.zip"
-            "14.1.0.605|https://gauss-opexcostmanual-eu.allawnofs.com/remove-8dbf4fe2dba8815dbbcb3d9bcee33d0f/component-ota/24/11/13/7ece91f468db494bb683b87901ce2597.zip"
-            "15.0.0.401|https://gauss-opexcostmanual-eu.allawnofs.com/remove-26db91c1831737b713824bf234bda276/component-ota/24/12/26/831468d1bb344f26b6d8f349819b3978.zip"
-            "15.0.0.500|https://gauss-opexcostmanual-sg.allawnofs.com/remove-8effbe7f2f3f02da978da0bab32c1ff3/component-ota/25/01/21/0e094e9b4a2547e58f358f5badc463ef.zip"
-            "15.0.0.601|https://gauss-opexcostmanual-sg.allawnofs.com/remove-9dce8095efca564e91f027be8c3da473/component-ota/25/02/26/98577420dedf4b1ba27204de888a8cb2.zip"
-            "15.0.0.702|https://gauss-opexcostmanual-sg.allawnofs.com/remove-1a16bcb9d8c4d44b7557e1066b1f2100/component-ota/25/04/07/a08b6c26f6c84a2daae6dac9e7b17ae3.zip"
-            "15.0.0.1002|https://gauss-opexcostmanual-eu.allawnofs.com/remove-a1eff8e4fdfbd65cbfe14375c2397540/component-ota/25/06/24/a1eb00ab8aa54aed9539d5d367f3097e.zip"
-            "15.0.0.1201|https://gauss-opexcostmanual-eu.allawnofs.com/remove-c03f2d5f18fe0c881a5e92423f741484/component-ota/25/08/11/3f44bd86573545cd821d32b7a5d5e121.zip"
-            "15.0.0.1203|https://gauss-opexcostmanual-eu.allawnofs.com/remove-fb166b6ae7ee5a4c9b02f78dd46c8f05/component-ota/25/08/26/41d2f7b27e2340b2ab0d3b2ae54ec860.zip"
-            "15.0.0.1301|https://gauss-opexcostmanual-eu.allawnofs.com/remove-4e6bf4ac4359329010d016ecb48f351d/component-ota/25/10/14/2613911822dd4a6cb6e4c78f6cb31938.zip"
+            "16.0.1.301|https://gauss-compota-c-fr.allawnofs.com/remove-e8681a84889f228b955e83c2e1bc6407/g-8e6c201cbb7830277671f83420eea503/component-ota/25/11/17/e32f5bfe903d4e79863988d7ea7d9b2c.zip?sign=26db4e6e266a123510c28e199314822e&t=6937cd2f&x-oss-signature=PDH%2FWlbtOXiPVj4n2ydlpRXLU%2FfujWQH%2Fuq%2FIhvz7rg%3D&x-oss-signature-version=OSS2&x-oss-expires=1765266487&x-oss-access-key-id=LTAI5t7LQqPWs3796pRv6Avx"
           )
 
           # -------------------------------------------------------
